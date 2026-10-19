@@ -90,12 +90,29 @@ open index.html
 ### No Build Required
 This is a pure client-side application. No npm, no bundlers, no servers needed.
 
+## 📚 Documentation
+
+Detailed documentation is available in [`doc/`](doc/README.md) (written in French):
+
+- [Architecture](doc/architecture.md) — code organization, load order, round/season lifecycle
+- [Gameplay & systems](doc/gameplay.md) — match engine, energy, economy, transfers, sponsors, stadium
+- [Code reference](doc/reference.md) — functions and constants by file
+- [Save format](doc/save-format.md) — JSON schema and limitations
+- [Development guide](doc/development.md) — setup, known bugs, roadmap
+
 ## 📁 Project Structure
 
 ```
 football-manager-v2/
 ├── index.html          # Main HTML file
 ├── README.md           # This file
+├── doc/                # Documentation (French)
+│   ├── README.md       # Documentation index
+│   ├── architecture.md # Code organization and data flow
+│   ├── gameplay.md     # Game rules and formulas
+│   ├── reference.md    # Function/constant reference
+│   ├── save-format.md  # Save file schema
+│   └── development.md  # Dev guide, known bugs, roadmap
 ├── css/
 │   └── styles.css      # All styling (retro theme, components)
 ├── js/
